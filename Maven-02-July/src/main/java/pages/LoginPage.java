@@ -11,17 +11,17 @@ public class LoginPage {
 	
 	// Variables - WebElement
 	
-	@FindBy (xpath = "//input[@id='email']") 
-	private WebElement userName ;
+// 	@FindBy (xpath = "//input[@id='email']") 
+// 	private WebElement userName ;
 	
-	@FindBy (xpath = "//input[@id='pass']") 
-	private WebElement password ;
+// 	@FindBy (xpath = "//input[@id='pass']") 
+// 	private WebElement password ;
 	
-	@FindBy (xpath = "//button[text()='Log in']") 
-	private WebElement loginButton ;
+// 	@FindBy (xpath = "//button[text()='Log in']") 
+// 	private WebElement loginButton ;
 	
-	@FindBy (xpath = "//a[text()='Messenger']") 
-	private WebElement messengerLink ;
+// 	@FindBy (xpath = "//a[text()='Messenger']") 
+// 	private WebElement messengerLink ;
 	
 	// Constructor - Initilization
 	
