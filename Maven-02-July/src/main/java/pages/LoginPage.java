@@ -25,13 +25,13 @@ public class LoginPage {
 	
 	// Constructor - Initilization
 	
-	// driver123 = driver = new ChromeDriver();
-	public LoginPage(WebDriver driver123) {  
-		PageFactory.initElements(driver123, this);
-	}
+// 	// driver123 = driver = new ChromeDriver();
+// 	public LoginPage(WebDriver driver123) {  
+// 		PageFactory.initElements(driver123, this);
+// 	}
 	
-	// Methods - Actions on weblement
-	public void sendUserName(String name) {
+// 	// Methods - Actions on weblement
+// 	public void sendUserName(String name) {
 		
 			userName.sendKeys(name);
 	}
